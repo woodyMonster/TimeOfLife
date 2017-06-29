@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4981461EFFDB84005E19B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981451EFFDB84005E19B7 /* AppDelegate.swift */; };
+		EF49814B1EFFDB84005E19B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4981491EFFDB84005E19B7 /* Main.storyboard */; };
+		EF49814E1EFFDB84005E19B7 /* TimeOfLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF49814C1EFFDB84005E19B7 /* TimeOfLife.xcdatamodeld */; };
+		EF4981501EFFDB84005E19B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF49814F1EFFDB84005E19B7 /* Assets.xcassets */; };
+		EF4981531EFFDB84005E19B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4981511EFFDB84005E19B7 /* LaunchScreen.storyboard */; };
+		EF4981691EFFDC35005E19B7 /* TimeOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49815B1EFFDC35005E19B7 /* TimeOfLife.swift */; };
+		EF49816A1EFFDC35005E19B7 /* TimeOfLifeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49815C1EFFDC35005E19B7 /* TimeOfLifeTableViewController.swift */; };
+		EF49816B1EFFDC35005E19B7 /* TimeOfLifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49815D1EFFDC35005E19B7 /* TimeOfLifeTableViewCell.swift */; };
+		EF49816C1EFFDC35005E19B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49815E1EFFDC35005E19B7 /* DetailViewController.swift */; };
+		EF49816D1EFFDC35005E19B7 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49815F1EFFDC35005E19B7 /* DetailTableViewCell.swift */; };
+		EF49816E1EFFDC35005E19B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981601EFFDC35005E19B7 /* MapViewController.swift */; };
+		EF49816F1EFFDC35005E19B7 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981611EFFDC35005E19B7 /* AddPlaceViewController.swift */; };
+		EF4981701EFFDC35005E19B7 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981621EFFDC35005E19B7 /* AboutTableViewController.swift */; };
+		EF4981711EFFDC35005E19B7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981631EFFDC35005E19B7 /* WebViewController.swift */; };
+		EF4981721EFFDC35005E19B7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981641EFFDC35005E19B7 /* PhotoViewController.swift */; };
+		EF4981731EFFDC35005E19B7 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981651EFFDC35005E19B7 /* MenuController.swift */; };
+		EF4981741EFFDC35005E19B7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4981671EFFDC35005E19B7 /* Reachability.m */; };
+		EF4981751EFFDC35005E19B7 /* SideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981681EFFDC35005E19B7 /* SideBarMenu.swift */; };
+		EF4981791EFFDF8D005E19B7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4981781EFFDF8D005E19B7 /* SWRevealViewController.m */; };
+		EF49817E1EFFEC6A005E19B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF49817D1EFFEC6A005E19B7 /* MapKit.framework */; };
+		EF4981841F001CE8005E19B7 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981831F001CE8005E19B7 /* PhotosCollectionViewCell.swift */; };
+		EF4981881F001DE1005E19B7 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4981871F001DE1005E19B7 /* PhotosCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF4981421EFFDB84005E19B7 /* TimeOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4981451EFFDB84005E19B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF49814A1EFFDB84005E19B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF49814D1EFFDB84005E19B7 /* TimeOfLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeOfLife.xcdatamodel; sourceTree = "<group>"; };
+		EF49814F1EFFDB84005E19B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4981521EFFDB84005E19B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4981541EFFDB84005E19B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF49815A1EFFDC34005E19B7 /* TimeOfLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeOfLife-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF49815B1EFFDC35005E19B7 /* TimeOfLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeOfLife.swift; sourceTree = "<group>"; };
+		EF49815C1EFFDC35005E19B7 /* TimeOfLifeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeOfLifeTableViewController.swift; sourceTree = "<group>"; };
+		EF49815D1EFFDC35005E19B7 /* TimeOfLifeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeOfLifeTableViewCell.swift; sourceTree = "<group>"; };
+		EF49815E1EFFDC35005E19B7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF49815F1EFFDC35005E19B7 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		EF4981601EFFDC35005E19B7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EF4981611EFFDC35005E19B7 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		EF4981621EFFDC35005E19B7 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		EF4981631EFFDC35005E19B7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		EF4981641EFFDC35005E19B7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		EF4981651EFFDC35005E19B7 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		EF4981661EFFDC35005E19B7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EF4981671EFFDC35005E19B7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EF4981681EFFDC35005E19B7 /* SideBarMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarMenu.swift; sourceTree = "<group>"; };
+		EF4981771EFFDF8D005E19B7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EF4981781EFFDF8D005E19B7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EF49817D1EFFEC6A005E19B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF4981831F001CE8005E19B7 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4981871F001DE1005E19B7 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF49813F1EFFDB84005E19B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF49817E1EFFEC6A005E19B7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4981391EFFDB84005E19B7 = {
+			isa = PBXGroup;
+			children = (
+				EF4981441EFFDB84005E19B7 /* TimeOfLife */,
+				EF4981431EFFDB84005E19B7 /* Products */,
+				EF49817C1EFFEC6A005E19B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4981431EFFDB84005E19B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4981421EFFDB84005E19B7 /* TimeOfLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4981441EFFDB84005E19B7 /* TimeOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				EF4981801F001A2E005E19B7 /* Reachability */,
+				EF4981761EFFDF81005E19B7 /* SWRevealViewController */,
+				EF49815A1EFFDC34005E19B7 /* TimeOfLife-Bridging-Header.h */,
+				EF4981451EFFDB84005E19B7 /* AppDelegate.swift */,
+				EF4981491EFFDB84005E19B7 /* Main.storyboard */,
+				EF49814F1EFFDB84005E19B7 /* Assets.xcassets */,
+				EF4981511EFFDB84005E19B7 /* LaunchScreen.storyboard */,
+				EF4981541EFFDB84005E19B7 /* Info.plist */,
+				EF49814C1EFFDB84005E19B7 /* TimeOfLife.xcdatamodeld */,
+				EF49815B1EFFDC35005E19B7 /* TimeOfLife.swift */,
+				EF49815C1EFFDC35005E19B7 /* TimeOfLifeTableViewController.swift */,
+				EF49815D1EFFDC35005E19B7 /* TimeOfLifeTableViewCell.swift */,
+				EF49815E1EFFDC35005E19B7 /* DetailViewController.swift */,
+				EF49815F1EFFDC35005E19B7 /* DetailTableViewCell.swift */,
+				EF4981601EFFDC35005E19B7 /* MapViewController.swift */,
+				EF4981611EFFDC35005E19B7 /* AddPlaceViewController.swift */,
+				EF4981621EFFDC35005E19B7 /* AboutTableViewController.swift */,
+				EF4981631EFFDC35005E19B7 /* WebViewController.swift */,
+				EF4981641EFFDC35005E19B7 /* PhotoViewController.swift */,
+				EF4981651EFFDC35005E19B7 /* MenuController.swift */,
+				EF4981681EFFDC35005E19B7 /* SideBarMenu.swift */,
+				EF4981871F001DE1005E19B7 /* PhotosCollectionViewController.swift */,
+				EF4981831F001CE8005E19B7 /* PhotosCollectionViewCell.swift */,
+			);
+			path = TimeOfLife;
+			sourceTree = "<group>";
+		};
+		EF4981761EFFDF81005E19B7 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF4981771EFFDF8D005E19B7 /* SWRevealViewController.h */,
+				EF4981781EFFDF8D005E19B7 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		EF49817C1EFFEC6A005E19B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF49817D1EFFEC6A005E19B7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4981801F001A2E005E19B7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EF4981661EFFDC35005E19B7 /* Reachability.h */,
+				EF4981671EFFDC35005E19B7 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4981411EFFDB84005E19B7 /* TimeOfLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4981571EFFDB84005E19B7 /* Build configuration list for PBXNativeTarget "TimeOfLife" */;
+			buildPhases = (
+				EF49813E1EFFDB84005E19B7 /* Sources */,
+				EF49813F1EFFDB84005E19B7 /* Frameworks */,
+				EF4981401EFFDB84005E19B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeOfLife;
+			productName = TimeOfLife;
+			productReference = EF4981421EFFDB84005E19B7 /* TimeOfLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF49813A1EFFDB84005E19B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Woody;
+				TargetAttributes = {
+					EF4981411EFFDB84005E19B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ANWUP86983;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EF49813D1EFFDB84005E19B7 /* Build configuration list for PBXProject "TimeOfLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4981391EFFDB84005E19B7;
+			productRefGroup = EF4981431EFFDB84005E19B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4981411EFFDB84005E19B7 /* TimeOfLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4981401EFFDB84005E19B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4981531EFFDB84005E19B7 /* LaunchScreen.storyboard in Resources */,
+				EF4981501EFFDB84005E19B7 /* Assets.xcassets in Resources */,
+				EF49814B1EFFDB84005E19B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF49813E1EFFDB84005E19B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF49816F1EFFDC35005E19B7 /* AddPlaceViewController.swift in Sources */,
+				EF49816D1EFFDC35005E19B7 /* DetailTableViewCell.swift in Sources */,
+				EF4981701EFFDC35005E19B7 /* AboutTableViewController.swift in Sources */,
+				EF4981741EFFDC35005E19B7 /* Reachability.m in Sources */,
+				EF49816B1EFFDC35005E19B7 /* TimeOfLifeTableViewCell.swift in Sources */,
+				EF4981691EFFDC35005E19B7 /* TimeOfLife.swift in Sources */,
+				EF49816E1EFFDC35005E19B7 /* MapViewController.swift in Sources */,
+				EF4981711EFFDC35005E19B7 /* WebViewController.swift in Sources */,
+				EF4981731EFFDC35005E19B7 /* MenuController.swift in Sources */,
+				EF49814E1EFFDB84005E19B7 /* TimeOfLife.xcdatamodeld in Sources */,
+				EF4981841F001CE8005E19B7 /* PhotosCollectionViewCell.swift in Sources */,
+				EF4981791EFFDF8D005E19B7 /* SWRevealViewController.m in Sources */,
+				EF4981751EFFDC35005E19B7 /* SideBarMenu.swift in Sources */,
+				EF49816A1EFFDC35005E19B7 /* TimeOfLifeTableViewController.swift in Sources */,
+				EF4981881F001DE1005E19B7 /* PhotosCollectionViewController.swift in Sources */,
+				EF4981461EFFDB84005E19B7 /* AppDelegate.swift in Sources */,
+				EF49816C1EFFDC35005E19B7 /* DetailViewController.swift in Sources */,
+				EF4981721EFFDC35005E19B7 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF4981491EFFDB84005E19B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF49814A1EFFDB84005E19B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4981511EFFDB84005E19B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4981521EFFDB84005E19B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4981551EFFDB84005E19B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4981561EFFDB84005E19B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4981581EFFDB84005E19B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ANWUP86983;
+				INFOPLIST_FILE = TimeOfLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.woody.TimeOfLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeOfLife/TimeOfLife-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF4981591EFFDB84005E19B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ANWUP86983;
+				INFOPLIST_FILE = TimeOfLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.woody.TimeOfLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeOfLife/TimeOfLife-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF49813D1EFFDB84005E19B7 /* Build configuration list for PBXProject "TimeOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4981551EFFDB84005E19B7 /* Debug */,
+				EF4981561EFFDB84005E19B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4981571EFFDB84005E19B7 /* Build configuration list for PBXNativeTarget "TimeOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4981581EFFDB84005E19B7 /* Debug */,
+				EF4981591EFFDB84005E19B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF49814C1EFFDB84005E19B7 /* TimeOfLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF49814D1EFFDB84005E19B7 /* TimeOfLife.xcdatamodel */,
+			);
+			currentVersion = EF49814D1EFFDB84005E19B7 /* TimeOfLife.xcdatamodel */;
+			path = TimeOfLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF49813A1EFFDB84005E19B7 /* Project object */;
+}
